@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyCrypt", "Cryptography.PolyCrypt\PolyCrypt.csproj", "{489C606F-43B3-42FE-BBE9-266A91FBBBEE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyTest", "Cryptography.PolyTest\PolyTest.csproj", "{348FC1A1-1C09-4D47-948F-E7FBC22FE05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCraftConsoleApp", "Cryptography.CryptoCraftConsoleApp\CryptoCraftConsoleApp.csproj", "{DC5F5A3C-0E1E-498A-9022-2B8DD537F321}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocrafter.Web", "Cryptocrafter.Web\Cryptocrafter.Web.csproj", "{C48F469D-807A-4FC0-A4A0-BE294D81C23E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocrafter.Web.Tests", "Cryptocrafter.Web.Tests\Cryptocrafter.Web.Tests.csproj", "{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{489C606F-43B3-42FE-BBE9-266A91FBBBEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{489C606F-43B3-42FE-BBE9-266A91FBBBEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{489C606F-43B3-42FE-BBE9-266A91FBBBEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{489C606F-43B3-42FE-BBE9-266A91FBBBEE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{348FC1A1-1C09-4D47-948F-E7FBC22FE05A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{348FC1A1-1C09-4D47-948F-E7FBC22FE05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{348FC1A1-1C09-4D47-948F-E7FBC22FE05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{348FC1A1-1C09-4D47-948F-E7FBC22FE05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5F5A3C-0E1E-498A-9022-2B8DD537F321}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5F5A3C-0E1E-498A-9022-2B8DD537F321}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5F5A3C-0E1E-498A-9022-2B8DD537F321}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5F5A3C-0E1E-498A-9022-2B8DD537F321}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C48F469D-807A-4FC0-A4A0-BE294D81C23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C48F469D-807A-4FC0-A4A0-BE294D81C23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C48F469D-807A-4FC0-A4A0-BE294D81C23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C48F469D-807A-4FC0-A4A0-BE294D81C23E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 6
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jillengland.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Cryptography.PolyCrypt\\PolyCrypt.csproj
+		SccProjectName1 = Cryptography.PolyCrypt
+		SccLocalPath1 = Cryptography.PolyCrypt
+		SccProjectUniqueName2 = Cryptography.PolyTest\\PolyTest.csproj
+		SccProjectName2 = Cryptography.PolyTest
+		SccLocalPath2 = Cryptography.PolyTest
+		SccProjectUniqueName3 = Cryptography.CryptoCraftConsoleApp\\CryptoCraftConsoleApp.csproj
+		SccProjectName3 = Cryptography.CryptoCraftConsoleApp
+		SccLocalPath3 = Cryptography.CryptoCraftConsoleApp
+		SccProjectUniqueName4 = Cryptocrafter.Web\\Cryptocrafter.Web.csproj
+		SccProjectName4 = Cryptocrafter.Web
+		SccLocalPath4 = Cryptocrafter.Web
+		SccProjectUniqueName5 = Cryptocrafter.Web.Tests\\Cryptocrafter.Web.Tests.csproj
+		SccProjectName5 = Cryptocrafter.Web.Tests
+		SccLocalPath5 = Cryptocrafter.Web.Tests
+	EndGlobalSection
+EndGlobal
