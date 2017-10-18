@@ -1,6 +1,5 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PolyCrypt;
 using PolyCrypt.DataGen;
 
 namespace PolyTest

@@ -46,7 +46,6 @@
     <Compile Include="CryptPlain.cs" />
     <Compile Include="Crypt.cs" />
     <Compile Include="DataGen\RandomGen.cs" />
-    <Compile Include="DataGen\RandomLong.cs" />
     <Compile Include="DataGen\RandomSelect.cs" />
     <Compile Include="GenPoly\GenPoly.cs" />
     <Compile Include="DataGen\Hash.cs">

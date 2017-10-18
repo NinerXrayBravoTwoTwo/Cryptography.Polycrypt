@@ -6,7 +6,6 @@ namespace PolyCrypt.DataGen
     public static class RandomGen
     {
         private static Random _lcg = new Random();
-        private static readonly RandomLong LcgLong = new RandomLong(_lcg.Next());
 
         #region Random Number Tools (Its better to use one sequence than several, using several will overlap sooner, be less 'random', than just using one.)
 
@@ -20,29 +19,9 @@ namespace PolyCrypt.DataGen
             return _lcg.Next();
         }
 
-        public static int Next(int maxValue)
-        {
-            return _lcg.Next(maxValue);
-        }
-
         public static int Next(int minValue, int maxValue)
         {
             return _lcg.Next(minValue, maxValue);
-        }
-
-        public static long NextLong(long minValue, long maxValue)
-        {
-            return LcgLong.Next(minValue, maxValue);
-        }
-
-        public static long NextLong()
-        {
-            return LcgLong.Next();
-        }
-
-        public static bool NextBool()
-        {
-            return Next(2) == 1;
         }
 
         public static double NextDouble()
