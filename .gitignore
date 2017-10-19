@@ -1,0 +1,10 @@
+﻿/Cryptography.PolyCrypt/bin/Debug
+/Cryptography.PolyCrypt/obj/Debug
+/Cryptography.PolyTest/bin/Debug
+/Cryptography.PolyTest/obj/Debug
+/packages/TNX.Cryptography.1.0.0
+/.vs/Cryptography.PolyCrypt/v15/sqlite3/storage.ide
+/.vs/Cryptography.PolyCrypt/v15/.suo
+Cryptography.PolyTest/ResearchTest.cs
+Cryptography.PolyTest/Statistic.cs
+*.user
