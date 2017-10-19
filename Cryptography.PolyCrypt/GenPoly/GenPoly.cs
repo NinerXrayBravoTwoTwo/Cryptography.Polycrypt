@@ -2,7 +2,8 @@
  * Copyright (c) 2013-2017 Jillian England
  * GPL 3
  */
- using System;
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using PolyCrypt.DataGen;

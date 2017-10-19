@@ -2,7 +2,8 @@
  * Copyright (c) 2013-2017 Jillian England
  * GPL 3
  */
- using System.Collections.Generic;
+
+using System.Collections.Generic;
 using System.Text;
 
 namespace PolyCrypt
@@ -24,7 +25,7 @@ namespace PolyCrypt
             , "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
             , "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=" // base 64 encoding set.  
             , "0123456789" // number
-            ,"0123456789ABCDEF" // hex
+            , "0123456789ABCDEF" // hex
             // You could base64 your code then run it through Vig/Rand/AutoK with poly alphabets.  Not suitable for hand encryption.
             // QV image generation.  Take a message, Autokey encrypt it, generate a QV bargraph and publish it.
         };

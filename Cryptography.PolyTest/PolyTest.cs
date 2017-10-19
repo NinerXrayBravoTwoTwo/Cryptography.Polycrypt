@@ -2,7 +2,8 @@
  * Copyright (c) 2013-2017 Jillian England
  * GPL 3
  */
- using System;
+
+using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PolyCrypt;
 using PolyCrypt.DataGen;
@@ -14,7 +15,7 @@ namespace PolyTest
     public class PolyTest
     {
         private readonly string plainText0 =
-            "ITSYBITSYSPIDERWENTUPTHEWATERSPOUTDOWNCAMETHERAINANDWASHEDTHESPIDEROUTOUTCAMETHESUNANDDRIEDUPALLTHERAINSOTHEITSYBITSYSPIDERWHENTUPTHESPOUTAGAIN";
+                "ITSYBITSYSPIDERWENTUPTHEWATERSPOUTDOWNCAMETHERAINANDWASHEDTHESPIDEROUTOUTCAMETHESUNANDDRIEDUPALLTHERAINSOTHEITSYBITSYSPIDERWHENTUPTHESPOUTAGAIN";
 
         [TestMethod]
         public void GenVigenere()
