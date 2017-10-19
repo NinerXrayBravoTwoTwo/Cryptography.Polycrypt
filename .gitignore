@@ -7,3 +7,4 @@
 /.vs/Cryptography.PolyCrypt/v15/.suo
 Cryptography.PolyTest/ResearchTest.cs
 Cryptography.PolyTest/Statistic.cs
+*.user
