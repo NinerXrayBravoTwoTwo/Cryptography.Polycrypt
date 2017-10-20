@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.24720.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyCrypt", "Cryptography.PolyCrypt\PolyCrypt.csproj", "{489C606F-43B3-42FE-BBE9-266A91FBBBEE}"
 EndProject
@@ -43,25 +43,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 6
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://jillengland.visualstudio.com/defaultcollection
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = Cryptography.PolyCrypt\\PolyCrypt.csproj
-		SccProjectName1 = Cryptography.PolyCrypt
-		SccLocalPath1 = Cryptography.PolyCrypt
-		SccProjectUniqueName2 = Cryptography.PolyTest\\PolyTest.csproj
-		SccProjectName2 = Cryptography.PolyTest
-		SccLocalPath2 = Cryptography.PolyTest
-		SccProjectUniqueName3 = Cryptography.CryptoCraftConsoleApp\\CryptoCraftConsoleApp.csproj
-		SccProjectName3 = Cryptography.CryptoCraftConsoleApp
-		SccLocalPath3 = Cryptography.CryptoCraftConsoleApp
-		SccProjectUniqueName4 = Cryptocrafter.Web\\Cryptocrafter.Web.csproj
-		SccProjectName4 = Cryptocrafter.Web
-		SccLocalPath4 = Cryptocrafter.Web
-		SccProjectUniqueName5 = Cryptocrafter.Web.Tests\\Cryptocrafter.Web.Tests.csproj
-		SccProjectName5 = Cryptocrafter.Web.Tests
-		SccLocalPath5 = Cryptocrafter.Web.Tests
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F395389F-2FE2-4F8C-BDB3-4B8791D350BF}
 	EndGlobalSection
 EndGlobal
