@@ -8,4 +8,6 @@
 Cryptography.PolyTest/ResearchTest.cs
 Cryptography.PolyTest/Statistic.cs
 *.user
+/Cryptography.CryptoCraftConsoleApp/bin/Debug
 /Cryptography.CryptoCraftConsoleApp/obj/Debug
+/.vs/Cryptography.PolyCrypt/v15
