@@ -55,7 +55,7 @@ namespace PolyCrypt
         {
             Alphabet = Map[defaultAlphabet];
 
-            Poly = GenPoly.GenPoly.GenRandom(password, Alphabet, numberAlphabets, out var hash);
+            Poly = GenPoly.GenPoly.GenRandom(password, Alphabet, numberAlphabets);
             //Console.WriteLine("hash={0}", hash); // TODO:  Isn't this a pickle? (yes you will have to think to figure this out)
         }
 
