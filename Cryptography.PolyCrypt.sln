@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyCrypt", "Cryptography.PolyCrypt\PolyCrypt.csproj", "{489C606F-43B3-42FE-BBE9-266A91FBBBEE}"
 EndProject
@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolyTest", "Cryptography.Po
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCraftConsoleApp", "Cryptography.CryptoCraftConsoleApp\CryptoCraftConsoleApp.csproj", "{DC5F5A3C-0E1E-498A-9022-2B8DD537F321}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocrafter.Web", "Cryptocrafter.Web\Cryptocrafter.Web.csproj", "{C48F469D-807A-4FC0-A4A0-BE294D81C23E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCraft.PolyWeb", "CryptoCraft.PolyWeb\CryptoCraft.PolyWeb.csproj", "{6BA9BFC1-3A17-45BA-A89F-36166E5AF165}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cryptocrafter.Web.Tests", "Cryptocrafter.Web.Tests\Cryptocrafter.Web.Tests.csproj", "{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoCraft.PolyWeb.Tests", "CryptoCraft.PolyWeb.Tests\CryptoCraft.PolyWeb.Tests.csproj", "{6C79D5E2-EC40-4FBA-BA32-7F2FAC4A2289}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +31,14 @@ Global
 		{DC5F5A3C-0E1E-498A-9022-2B8DD537F321}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC5F5A3C-0E1E-498A-9022-2B8DD537F321}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC5F5A3C-0E1E-498A-9022-2B8DD537F321}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C48F469D-807A-4FC0-A4A0-BE294D81C23E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C48F469D-807A-4FC0-A4A0-BE294D81C23E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C48F469D-807A-4FC0-A4A0-BE294D81C23E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C48F469D-807A-4FC0-A4A0-BE294D81C23E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{87B0136B-E7FC-4569-BEA4-B4ADE8A9F32D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA9BFC1-3A17-45BA-A89F-36166E5AF165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA9BFC1-3A17-45BA-A89F-36166E5AF165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA9BFC1-3A17-45BA-A89F-36166E5AF165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA9BFC1-3A17-45BA-A89F-36166E5AF165}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C79D5E2-EC40-4FBA-BA32-7F2FAC4A2289}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C79D5E2-EC40-4FBA-BA32-7F2FAC4A2289}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C79D5E2-EC40-4FBA-BA32-7F2FAC4A2289}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C79D5E2-EC40-4FBA-BA32-7F2FAC4A2289}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

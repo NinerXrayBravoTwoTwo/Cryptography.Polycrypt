@@ -31,11 +31,11 @@ namespace PolyCrypt.DataGen
 
         public static decimal NextDecimal(decimal minValue, decimal maxValue)
         {
-            var min = Convert.ToInt32(decimal.Round(minValue*100, 0));
-            var max = Convert.ToInt32(decimal.Round(maxValue*100, 0));
+            var min = Convert.ToInt32(decimal.Round(minValue * 100, 0));
+            var max = Convert.ToInt32(decimal.Round(maxValue * 100, 0));
 
             // ReSharper disable PossibleLossOfFraction
-            decimal r = Next(min, max)/100; // We intend this.
+            decimal r = Next(min, max) / 100; // We intend this.
             // ReSharper restore PossibleLossOfFraction
 
             return Math.Round(r, 2);
@@ -43,7 +43,7 @@ namespace PolyCrypt.DataGen
 
         public static decimal NextDecimal()
         {
-            return NextDecimal(Math.Round(decimal.MinValue/100), Math.Round(decimal.MaxValue/100));
+            return NextDecimal(Math.Round(decimal.MinValue / 100), Math.Round(decimal.MaxValue / 100));
         }
 
         #endregion

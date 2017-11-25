@@ -86,9 +86,10 @@ namespace PolyCrypt.GenPoly
 
         #region Generate Random Poly Alphabet
 
-        public static string[][] GenRandom(string password, string alphabet, int n, out int hash)
+
+        public static string[][] GenRandom(string password, string alphabet, int n)
         {
-            hash = GenPasswordHash(password);
+            GenPasswordHash(password);
 
             var source = StringToArray(alphabet);
 
@@ -100,12 +101,16 @@ namespace PolyCrypt.GenPoly
             return result;
         }
 
-        private static int GenPasswordHash(string password)
+        public static int GenPasswordHash(string password)
         {
             if (string.IsNullOrEmpty(password))
                 return RandomGen.Next();
 
             var hash = Hash.HashInt32(password);
+
+            if (hash == 0 )
+                throw new ArithmeticException("Random number initialization failure in password hash.");
+
             RandomGen.SetSeed(hash);
 
             return hash;
